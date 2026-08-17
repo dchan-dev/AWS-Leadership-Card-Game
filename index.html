@@ -1,0 +1,1877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leadership Practice | AWS Builder Card Deck</title>
+  <meta name="description" content="提升信任、包容、一致性、獨立性與健康交接。建立直接領導通道、獨立組裝資源、證明方法，並擁有可衡量成果。從客戶價值出發，在分歧中用證據推進，並交付負責任的結果。" />
+  <meta name="keywords" content="Leadership Practice, AWS Builder Card Deck, 提升信任, 包容, 一致性, 獨立性, 健康交接, 直接領導通道, 獨立組裝資源, 可衡量成果, 客戶價值, 證據推進, 負責任的結果, leadership principles, speaking cards" />
+  <meta name="author" content="Leadership Practice" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Leadership Practice | AWS Builder Card Deck" />
+  <meta property="og:description" content="提升信任、包容、一致性、獨立性與健康交接。建立直接領導通道、獨立組裝資源、證明方法，並擁有可衡量成果。從客戶價值出發，在分歧中用證據推進，並交付負責任的結果。" />
+  <meta property="og:image" content="https://aws-user-group.com/demo/seo_banner.jpg" />
+  <meta property="og:site_name" content="Leadership Practice" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/jpeg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Leadership Practice | AWS Builder Card Deck" />
+  <meta name="twitter:description" content="提升信任、包容、一致性、獨立性與健康交接。建立直接領導通道、獨立組裝資源、證明方法，並擁有可衡量成果。從客戶價值出發，在分歧中用證據推進，並交付負責任的結果。" />
+  <meta name="twitter:image" content="https://aws-user-group.com/demo/seo_banner.jpg" />
+  <meta name="twitter:image:alt" content="Leadership Practice" />
+  <meta property="og:image:alt" content="Leadership Practice" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700;800&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --pink: #FF5BFF;
+      --cyan: #6CE1FF;
+      --indigo: #5D26FF;
+      --lavender: #E2DBFF;
+      --black: #111111;
+      --charcoal: #2A2A2A;
+      --white: #FFFFFF;
+      --grid: #D8D4E8;
+      --muted: #5A5668;
+      --grad: linear-gradient(120deg, #FF5BFF 0%, #5D26FF 48%, #6CE1FF 100%);
+      --shadow: 6px 6px 0 color-mix(in srgb, var(--indigo) 28%, transparent);
+      --radius: 0;
+      --font-display: "Oxanium", sans-serif;
+      --font-body: "Sora", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--font-body);
+      color: var(--black);
+      background:
+        linear-gradient(to right, color-mix(in srgb, var(--grid) 70%, transparent) 1px, transparent 1px) 0 0 / 48px 48px,
+        linear-gradient(to bottom, color-mix(in srgb, var(--grid) 70%, transparent) 1px, transparent 1px) 0 0 / 48px 48px,
+        var(--white);
+      min-height: 100vh;
+    }
+
+    a { color: inherit; }
+
+    .wrap {
+      width: min(1240px, calc(100% - 2rem));
+      margin: 0 auto;
+    }
+
+    img, svg, video { max-width: 100%; height: auto; }
+
+    /* —— Top bar —— */
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      backdrop-filter: blur(10px);
+      background: color-mix(in srgb, var(--white) 88%, transparent);
+      border-bottom: 2px solid var(--black);
+    }
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      padding: 0.85rem 0;
+    }
+    .brand {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: 1.05rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .btn {
+      appearance: none;
+      border: 2px solid var(--black);
+      background: var(--white);
+      color: var(--black);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 0.55rem 0.9rem;
+      min-height: 2.75rem;
+      cursor: pointer;
+      box-shadow: 3px 3px 0 var(--lavender);
+      transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+    .btn:hover {
+      transform: translate(-1px, -1px);
+      box-shadow: 4px 4px 0 color-mix(in srgb, var(--pink) 45%, transparent);
+    }
+    .btn:active { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--lavender); }
+    .btn-primary {
+      background: var(--grad);
+      color: var(--white);
+      border-color: var(--black);
+      text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+    }
+    .lang-switch {
+      display: inline-flex;
+      border: 2px solid var(--black);
+      background: var(--white);
+      box-shadow: 3px 3px 0 var(--lavender);
+    }
+    .lang-switch button {
+      border: 0;
+      background: transparent;
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.05em;
+      padding: 0.55rem 0.7rem;
+      min-height: 2.75rem;
+      min-width: 2.75rem;
+      cursor: pointer;
+      color: var(--muted);
+    }
+    .lang-switch button[aria-pressed="true"] {
+      background: var(--black);
+      color: var(--cyan);
+    }
+
+    /* —— Hero —— */
+    .hero {
+      padding: 3.2rem 0 2.2rem;
+      border-bottom: 2px solid var(--black);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: auto -10% -40% 40%;
+      height: 120%;
+      background: radial-gradient(circle at center, color-mix(in srgb, var(--pink) 28%, transparent), transparent 60%),
+                  radial-gradient(circle at 30% 40%, color-mix(in srgb, var(--cyan) 24%, transparent), transparent 55%),
+                  radial-gradient(circle at 70% 30%, color-mix(in srgb, var(--indigo) 20%, transparent), transparent 50%);
+      pointer-events: none;
+    }
+    .hero-inner { position: relative; }
+    .eyebrow {
+      display: inline-block;
+      font-family: var(--font-display);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--indigo);
+      margin-bottom: 0.85rem;
+    }
+    .hero h1 {
+      margin: 0 0 0.75rem;
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      max-width: 16ch;
+    }
+    .hero h1 span {
+      background: var(--grad);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .hero-lead {
+      margin: 0;
+      max-width: 42rem;
+      color: var(--charcoal);
+      font-size: 1.02rem;
+      line-height: 1.55;
+    }
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-top: 1.5rem;
+      align-items: center;
+    }
+
+    /* —— Toolbar —— */
+    .toolbar {
+      display: grid;
+      grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr));
+      gap: 0.75rem;
+      padding: 1.25rem 0 0.5rem;
+    }
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .field label {
+      font-family: var(--font-display);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .field input,
+    .field select {
+      width: 100%;
+      border: 2px solid var(--black);
+      background: var(--white);
+      color: var(--black);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      padding: 0.65rem 0.75rem;
+      min-height: 2.75rem;
+      outline: none;
+      box-shadow: 3px 3px 0 var(--lavender);
+    }
+    .field input:focus,
+    .field select:focus {
+      box-shadow: 3px 3px 0 color-mix(in srgb, var(--cyan) 55%, transparent);
+    }
+    .meta-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      padding: 0.85rem 0 1.1rem;
+      border-bottom: 1px solid var(--grid);
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    .meta-row strong { color: var(--black); font-family: var(--font-display); }
+
+    /* —— Cards —— */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+      padding: 1.4rem 0 3.5rem;
+    }
+    .card {
+      border: 2px solid var(--black);
+      background: var(--white);
+      box-shadow: var(--shadow);
+      padding: 0;
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      min-height: 210px;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: var(--grad);
+    }
+    .card:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 8px 8px 0 color-mix(in srgb, var(--pink) 35%, transparent);
+    }
+    .card-body { padding: 1rem 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.55rem; flex: 1; }
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .card-no {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: 0.85rem;
+      color: var(--indigo);
+    }
+    .card-stars { color: var(--pink); letter-spacing: 0.04em; font-size: 0.85rem; }
+    .card-role {
+      display: inline-block;
+      width: fit-content;
+      border: 1.5px solid var(--black);
+      background: var(--lavender);
+      font-family: var(--font-display);
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.22rem 0.45rem;
+    }
+    .card-role.builder { background: color-mix(in srgb, var(--cyan) 35%, white); }
+    .card-role.advanced { background: color-mix(in srgb, var(--pink) 28%, white); }
+    .card h3 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: 1.02rem;
+      line-height: 1.25;
+      font-weight: 700;
+    }
+    .card-line {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.84rem;
+      line-height: 1.45;
+      flex: 1;
+    }
+    .card-full-block {
+      display: none;
+      margin: 0;
+      padding-top: 0.35rem;
+      border-top: 1px solid var(--grid);
+    }
+    .card-full-block dt {
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--indigo);
+      margin: 0.45rem 0 0.15rem;
+    }
+    .card-full-block dd {
+      margin: 0;
+      color: var(--charcoal);
+      font-size: 0.84rem;
+      line-height: 1.45;
+    }
+    @media (min-width: 721px) {
+      .card-role {
+        font-size: 0.78rem;
+        padding: 0.3rem 0.55rem;
+      }
+      .card-foot {
+        font-size: 0.85rem;
+      }
+      .card-line {
+        font-size: 1.05rem;
+        line-height: 1.55;
+      }
+      .detail-item dt {
+        font-size: 1rem;
+      }
+      .detail-item dd {
+        font-size: 1.05rem;
+        line-height: 1.55;
+      }
+      #cardBody .detail-item dt {
+        font-size: 1.07rem;
+      }
+      #cardBody .detail-item dd {
+        font-size: 1.16rem;
+        line-height: 1.6;
+      }
+      .card-full-block {
+        padding-top: 0.55rem;
+      }
+      .card-full-block dt {
+        font-size: 1rem;
+        margin: 0.7rem 0 0.3rem;
+        letter-spacing: 0.06em;
+      }
+      .card-full-block dd {
+        font-size: 1.05rem;
+        line-height: 1.55;
+      }
+      body.show-full-cards .card h3 {
+        font-size: 1.2rem;
+      }
+    }
+    body.show-full-cards .card {
+      min-height: 0;
+    }
+    body.show-full-cards .card-line {
+      display: none;
+    }
+    body.show-full-cards .card-foot {
+      display: none;
+    }
+    body.show-full-cards .card-full-block {
+      display: block;
+    }
+    body.show-full-cards #btnShowFull,
+    #btnShowFull[aria-pressed="true"] {
+      background: var(--black);
+      color: var(--cyan);
+      box-shadow: 3px 3px 0 color-mix(in srgb, var(--cyan) 40%, transparent);
+    }
+    .card-foot {
+      margin-top: auto;
+      font-family: var(--font-display);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--indigo);
+    }
+
+    .empty {
+      grid-column: 1 / -1;
+      border: 2px dashed var(--grid);
+      padding: 2.5rem 1rem;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .status {
+      padding: 2rem 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .status.error { color: #b00040; }
+
+    /* —— Modal —— */
+    .modal {
+      position: fixed;
+      inset: 0;
+      z-index: 80;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .modal.open { display: flex; }
+    .modal-backdrop {
+      position: absolute;
+      inset: 0;
+      background: color-mix(in srgb, var(--black) 55%, transparent);
+      backdrop-filter: blur(3px);
+    }
+    .modal-panel {
+      position: relative;
+      width: min(720px, 100%);
+      max-height: min(88vh, 900px);
+      overflow: auto;
+      background: var(--white);
+      border: 2px solid var(--black);
+      box-shadow: 10px 10px 0 color-mix(in srgb, var(--indigo) 35%, transparent);
+      padding: 1.35rem 1.35rem 1.5rem;
+    }
+    .modal-panel.wide { width: min(860px, 100%); }
+    .modal-close {
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      width: 2.2rem;
+      height: 2.2rem;
+      border: 2px solid var(--black);
+      background: var(--lavender);
+      font-family: var(--font-display);
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .modal-kicker {
+      font-family: var(--font-display);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--indigo);
+      margin: 0 0 0.4rem;
+    }
+    .modal h2 {
+      margin: 0 0 1rem;
+      padding-right: 2.4rem;
+      font-family: var(--font-display);
+      font-size: clamp(1.35rem, 3vw, 1.85rem);
+      line-height: 1.15;
+    }
+    .modal h3 {
+      margin: 1.25rem 0 0.5rem;
+      font-family: var(--font-display);
+      font-size: 1rem;
+      color: var(--indigo);
+    }
+    .modal p, .modal li {
+      color: var(--charcoal);
+      line-height: 1.55;
+      font-size: 0.95rem;
+    }
+    .modal ol, .modal ul { padding-left: 1.2rem; margin: 0.4rem 0 0; }
+    .modal li + li { margin-top: 0.35rem; }
+    .callout {
+      border-left: 4px solid transparent;
+      border-image: var(--grad) 1;
+      background: color-mix(in srgb, var(--lavender) 55%, white);
+      padding: 0.85rem 1rem;
+      margin: 0.75rem 0 1rem;
+    }
+    .detail-grid {
+      display: grid;
+      gap: 0.75rem;
+    }
+    .detail-item {
+      border: 1.5px solid var(--grid);
+      padding: 0.75rem 0.85rem;
+    }
+    .detail-item dt {
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--indigo);
+      margin-bottom: 0.3rem;
+    }
+    .detail-item dd { margin: 0; color: var(--charcoal); line-height: 1.5; font-size: 0.92rem; }
+    #cardBody .detail-item dt {
+      font-size: 0.97rem;
+    }
+    #cardBody .detail-item dd {
+      font-size: 1.07rem;
+      line-height: 1.55;
+    }
+    .badge-row { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 0.85rem; }
+    .badge {
+      border: 1.5px solid var(--black);
+      padding: 0.3rem 0.6rem;
+      font-family: var(--font-display);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: var(--lavender);
+    }
+
+    footer {
+      border-top: 2px solid var(--black);
+      padding: 1.25rem 0 2rem;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+    footer .grad-text {
+      font-family: var(--font-display);
+      font-weight: 700;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    /* —— Game setup / board —— */
+    .setup-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 0.85rem;
+      margin-bottom: 1rem;
+    }
+    .level-switch {
+      display: flex;
+      border: 2px solid var(--black);
+      background: var(--white);
+      box-shadow: 3px 3px 0 var(--lavender);
+      overflow: hidden;
+    }
+    .level-btn {
+      flex: 1;
+      border: 0;
+      background: transparent;
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 0.7rem 0.55rem;
+      min-height: 2.75rem;
+      cursor: pointer;
+      color: var(--muted);
+    }
+    .level-btn[aria-pressed="true"] {
+      background: var(--black);
+      color: var(--cyan);
+    }
+    .setup-names {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.75rem;
+      margin-bottom: 0.85rem;
+    }
+    .setup-hint {
+      margin: 0 0 1rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+    .setup-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.6rem;
+    }
+
+    .game-board {
+      padding: 1.4rem 0 0.5rem;
+      border-bottom: 2px solid var(--black);
+      margin-bottom: 0.5rem;
+    }
+    .game-board[hidden] { display: none !important; }
+    .game-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+    .game-kicker {
+      margin: 0 0 0.25rem;
+      font-family: var(--font-display);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--indigo);
+    }
+    .game-header h2 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: clamp(1.35rem, 3vw, 1.85rem);
+      line-height: 1.15;
+    }
+    .game-sub {
+      margin: 0.35rem 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .game-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+    }
+    .player-tabs {
+      display: none;
+    }
+    .game-players {
+      display: grid;
+      gap: 1.25rem;
+      padding-bottom: 1.25rem;
+    }
+    .game-player {
+      border: 2px solid var(--black);
+      background: var(--white);
+      box-shadow: 4px 4px 0 var(--lavender);
+      padding: 0.9rem;
+    }
+    .game-player.is-active {
+      box-shadow: 6px 6px 0 color-mix(in srgb, var(--pink) 40%, transparent);
+      border-color: var(--indigo);
+    }
+    .game-player-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .game-player-name {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+    .game-player-tag {
+      border: 1.5px solid var(--black);
+      background: var(--lavender);
+      font-family: var(--font-display);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.5rem;
+    }
+    .game-player.is-active .game-player-tag {
+      background: var(--grad);
+      color: var(--white);
+    }
+    .game-hand {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.85rem;
+    }
+    .game-hand .card { width: 100%; min-height: 0; }
+    .game-hand .card-line,
+    .game-hand .card-foot {
+      display: none;
+    }
+    .game-hand .card-full-block {
+      display: block;
+    }
+
+    /* —— Responsive —— */
+    @media (max-width: 900px) {
+      .toolbar { grid-template-columns: 1fr 1fr; }
+      .hero { padding: 2.4rem 0 1.8rem; }
+      .hero h1 { max-width: none; }
+      .modal-panel.wide { width: min(720px, 100%); }
+    }
+
+    @media (max-width: 720px) {
+      .wrap { width: min(1240px, calc(100% - 1.25rem)); }
+      .brand {
+        font-size: 0.92rem;
+        line-height: 1.2;
+        word-break: break-word;
+      }
+      .hero { padding: 1.75rem 0 1.5rem; }
+      .hero::before {
+        inset: auto -20% -30% 10%;
+        opacity: 0.85;
+      }
+      .eyebrow {
+        font-size: 0.68rem;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.65rem;
+      }
+      .hero h1 {
+        font-size: clamp(1.7rem, 8.5vw, 2.35rem);
+        margin-bottom: 0.65rem;
+      }
+      .hero-lead {
+        font-size: 0.95rem;
+        line-height: 1.5;
+      }
+      .hero-cta {
+        gap: 0.6rem;
+        margin-top: 1.15rem;
+      }
+      .lang-switch { width: 100%; }
+      .lang-switch button { flex: 1; }
+      .hero-cta .btn {
+        flex: 1 1 calc(50% - 0.6rem);
+        text-align: center;
+      }
+      .hero-cta .btn-primary {
+        flex: 1 1 100%;
+      }
+      .setup-grid { grid-template-columns: 1fr; }
+      .game-header { flex-direction: column; }
+      .game-actions { width: 100%; }
+      .game-actions .btn { flex: 1 1 calc(50% - 0.55rem); }
+      .game-hand { grid-template-columns: 1fr; }
+      .toolbar {
+        grid-template-columns: 1fr;
+        gap: 0.65rem;
+        padding: 1rem 0 0.35rem;
+      }
+      .meta-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+        padding: 0.75rem 0 0.95rem;
+        font-size: 0.84rem;
+      }
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 0.85rem;
+        padding: 1rem 0 2.5rem;
+      }
+      .card {
+        min-height: 0;
+        box-shadow: 4px 4px 0 color-mix(in srgb, var(--indigo) 24%, transparent);
+      }
+      .card:hover {
+        transform: none;
+        box-shadow: 4px 4px 0 color-mix(in srgb, var(--indigo) 24%, transparent);
+      }
+      .card:active {
+        transform: translate(1px, 1px);
+        box-shadow: 2px 2px 0 color-mix(in srgb, var(--pink) 30%, transparent);
+      }
+      .card-body { padding: 0.9rem 0.9rem 1rem; gap: 0.5rem; }
+      .card-body .card-no,
+      .card-body .card-stars {
+        font-size: 1rem;
+      }
+      .card-body .card-role {
+        font-size: 0.78rem;
+        padding: 0.28rem 0.5rem;
+      }
+      .card-body h3 {
+        font-size: 1.15rem;
+        line-height: 1.3;
+      }
+      .card-body .card-line {
+        font-size: 1.12rem;
+        line-height: 1.55;
+      }
+      .card-body .card-foot {
+        font-size: 0.82rem;
+      }
+      .card-body .card-full-block dt {
+        font-size: 0.78rem;
+        margin: 0.4rem 0 0.12rem;
+      }
+      .card-body .card-full-block dd {
+        font-size: 0.95rem;
+        line-height: 1.45;
+      }
+
+      .modal {
+        align-items: flex-end;
+        padding: 0;
+      }
+      .modal-panel,
+      .modal-panel.wide {
+        width: 100%;
+        max-height: min(92dvh, 92vh);
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+        box-shadow: 0 -6px 0 color-mix(in srgb, var(--indigo) 28%, transparent);
+        padding: 1.15rem 1rem calc(1.25rem + env(safe-area-inset-bottom, 0px));
+        border-radius: 0;
+      }
+      .modal-close {
+        top: 0.65rem;
+        right: 0.65rem;
+        width: 2.6rem;
+        height: 2.6rem;
+        font-size: 1.25rem;
+      }
+      .modal h2 {
+        font-size: clamp(1.2rem, 5.5vw, 1.55rem);
+        margin-bottom: 0.85rem;
+      }
+      .modal p, .modal li { font-size: 0.92rem; }
+      .callout { padding: 0.75rem 0.85rem; }
+      .detail-item { padding: 0.7rem 0.75rem; }
+      .detail-item dd { font-size: 0.9rem; word-break: break-word; }
+
+      footer {
+        padding: 1rem 0 calc(1.5rem + env(safe-area-inset-bottom, 0px));
+        font-size: 0.78rem;
+        line-height: 1.45;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .wrap { width: min(1240px, calc(100% - 1rem)); }
+      .hero-cta .btn {
+        flex: 1 1 100%;
+      }
+      .lang-switch button {
+        padding: 0.5rem 0.35rem;
+        font-size: 0.68rem;
+      }
+      body {
+        background-size: 36px 36px, 36px 36px, auto;
+      }
+    }
+
+    @media (hover: none) {
+      .btn:hover {
+        transform: none;
+        box-shadow: 3px 3px 0 var(--lavender);
+      }
+      .card:hover {
+        transform: none;
+        box-shadow: 4px 4px 0 color-mix(in srgb, var(--indigo) 24%, transparent);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; scroll-behavior: auto !important; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand" id="brand">AWS Leadership Card Game</div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="eyebrow" id="eyebrow">AWS Builder Deck</div>
+      <h1 id="heroTitle">Leadership Practice</h1>
+      <p class="hero-lead" id="heroLead">
+        The Community Manager controls customer entrances, customer resources, and customer narratives.
+        The Builder creates leadership entrances, assembles official resources, and authors scalable leadership narratives.
+      </p>
+      <div class="hero-cta">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="zh_tw" aria-pressed="false">繁中</button>
+          <button type="button" data-lang="zh_cn" aria-pressed="false">简中</button>
+        </div>
+        <button class="btn" type="button" data-open="howto" id="btnHowTo">How to Play</button>
+        <button class="btn" type="button" data-open="details" id="btnDetails">Game Details</button>
+        <button class="btn" type="button" id="btnShowFull" aria-pressed="false">Show Full Card</button>
+        <a class="btn" id="btnBlog" href="press/blog/01_speaking_like_a_leader_aws_builders.html">Blog</a>
+        <button class="btn btn-primary" type="button" id="btnStartGame">Start Game</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="game-board wrap" id="gameBoard" hidden>
+    <div class="game-header">
+      <div>
+        <p class="game-kicker" id="gameKicker">Live session</p>
+        <h2 id="gameHeading">Round 1</h2>
+        <p class="game-sub" id="gameSub"></p>
+      </div>
+      <div class="game-actions">
+        <button class="btn" type="button" id="btnEndTurn">End Turn</button>
+        <button class="btn btn-primary" type="button" id="btnEndRound">End Round · New Cards</button>
+        <button class="btn" type="button" id="btnExitGame">Exit</button>
+      </div>
+    </div>
+    <div class="player-tabs" id="playerTabs" hidden></div>
+    <div class="game-players" id="gameHand"></div>
+  </section>
+
+  <main class="wrap" id="browseMain">
+    <div class="toolbar" aria-label="Filters">
+      <div class="field">
+        <label for="search" id="labelSearch">Search</label>
+        <input id="search" type="search" placeholder="Title, speaking line, principle…" />
+      </div>
+      <div class="field">
+        <label for="role" id="labelRole">Role</label>
+        <select id="role">
+          <option value="all">All roles</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="range" id="labelRange">Range</label>
+        <select id="range">
+          <option value="all">All cards</option>
+          <option value="1-150">001–150 Community Manager</option>
+          <option value="151-300">151–300 Builder</option>
+          <option value="301-600">301–600 Advanced</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="sort" id="labelSort">Sort</label>
+        <select id="sort">
+          <option value="id-asc">Number ↑</option>
+          <option value="id-desc">Number ↓</option>
+          <option value="stars-desc">Skill ★ ↓</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="meta-row">
+      <div id="countLabel"><strong>0</strong> cards</div>
+      <div id="hintLabel">Click any card for full details</div>
+    </div>
+
+    <div id="status" class="status" hidden></div>
+    <div id="grid" class="grid" aria-live="polite"></div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span class="grad-text">AWS Leadership Card Game</span>
+      · Working Backwards × Philippines Leadership × Leadership Principles
+    </div>
+  </footer>
+
+  <!-- How to Play -->
+  <div class="modal" id="modalHowto" role="dialog" aria-modal="true" aria-labelledby="howtoTitle" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" data-close aria-label="Close">×</button>
+      <p class="modal-kicker" id="howtoKicker">Deck guide</p>
+      <h2 id="howtoTitle">How to Play</h2>
+      <div id="howtoBody"></div>
+    </div>
+  </div>
+
+  <!-- Game Details -->
+  <div class="modal" id="modalDetails" role="dialog" aria-modal="true" aria-labelledby="detailsTitle" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel wide">
+      <button class="modal-close" type="button" data-close aria-label="Close">×</button>
+      <p class="modal-kicker" id="detailsKicker">Facilitator</p>
+      <h2 id="detailsTitle">Game Details</h2>
+      <div id="detailsBody"></div>
+    </div>
+  </div>
+
+  <!-- Card detail -->
+  <div class="modal" id="modalCard" role="dialog" aria-modal="true" aria-labelledby="cardTitle" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel wide">
+      <button class="modal-close" type="button" data-close aria-label="Close">×</button>
+      <p class="modal-kicker" id="cardKicker">Card</p>
+      <h2 id="cardTitle">Card</h2>
+      <div id="cardBody"></div>
+    </div>
+  </div>
+
+  <!-- Start game setup -->
+  <div class="modal" id="modalSetup" role="dialog" aria-modal="true" aria-labelledby="setupTitle" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel wide">
+      <button class="modal-close" type="button" data-close aria-label="Close">×</button>
+      <p class="modal-kicker" id="setupKicker">New session</p>
+      <h2 id="setupTitle">Start Game</h2>
+      <div class="setup-grid">
+        <div class="field">
+          <label for="playerCount" id="labelPlayerCount">Players</label>
+          <select id="playerCount">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4" selected>4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="field">
+          <label id="labelLevel">Level</label>
+          <div class="level-switch" role="group" aria-label="Level">
+            <button type="button" class="level-btn" data-level="basic" aria-pressed="true" id="levelBasic">Basic · 001–300</button>
+            <button type="button" class="level-btn" data-level="advanced" aria-pressed="false" id="levelAdvanced">Advanced · 301–600</button>
+          </div>
+        </div>
+      </div>
+      <div class="setup-names" id="setupNames"></div>
+      <p class="setup-hint" id="setupHint">Each player gets 3 cards every turn. End the round to deal 3 new cards.</p>
+      <div class="setup-actions">
+        <button class="btn btn-primary" type="button" id="btnConfirmStart">Start</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const SOURCES = {
+      en: "card_en.json",
+      zh_tw: "card_zh_tw.json",
+      zh_cn: "card_zh_cn.json",
+    };
+
+    const UI = {
+      en: {
+        brand: "AWS Leadership Card Game",
+        eyebrow: "AWS Builder Deck",
+        heroTitleHtml: 'Leadership Practice',
+        heroLead:
+          "The Community Manager controls customer entrances, customer resources, and customer narratives. The Builder creates leadership entrances, assembles official resources, and authors scalable leadership narratives.",
+        howTo: "How to Play",
+        details: "Game Details",
+        startGame: "Start Game",
+        showFull: "Show Full Card",
+        hideFull: "Compact Cards",
+        blog: "Blog",
+        setupKicker: "New session",
+        setupTitle: "Start Game",
+        labelPlayerCount: "Players",
+        labelLevel: "Level",
+        levelBasic: "Basic · 001–300",
+        levelAdvanced: "Advanced · 301–600",
+        playerName: (n) => `Player ${n} name`,
+        playerPlaceholder: (n) => `Player ${n}`,
+        setupHint: "Each player gets 3 cards every turn. End the round to deal 3 new cards to everyone.",
+        confirmStart: "Start",
+        gameKicker: "Live session",
+        round: (n) => `Round ${n}`,
+        gameSub: (level, left, count) => `${count} players · ${level} · ${left} cards left in deck`,
+        yourTurn: "Speaking now",
+        endTurn: "Next Speaker",
+        endRound: "End Round · New Cards",
+        exitGame: "Exit",
+        levelBasicShort: "Basic",
+        levelAdvancedShort: "Advanced",
+        needCards: "Not enough cards left in the deck. Start a new game or end the round after reshuffling.",
+        howToHero: "Open How to Play",
+        detailsHero: "Facilitator Notes",
+        search: "Search",
+        searchPh: "Title, speaking line, principle…",
+        role: "Role",
+        range: "Range",
+        sort: "Sort",
+        allRoles: "All roles",
+        allCards: "All cards",
+        rangeCM: "001–150 Community Manager",
+        rangeBuilder: "151–300 Builder",
+        rangeAdv: "301–600 Advanced",
+        sortAsc: "Number ↑",
+        sortDesc: "Number ↓",
+        sortStars: "Skill ★ ↓",
+        count: (n) => `<strong>${n}</strong> cards`,
+        hint: "Click any card for full details",
+        openCard: "Open details →",
+        howtoKicker: "Deck guide",
+        howtoTitle: "How to Play",
+        detailsKicker: "Facilitator",
+        detailsTitle: "Game Details",
+        labels: {
+          role: "Role",
+          principle: "Leadership principle",
+          skill: "Skill",
+          speaking: "Speaking line",
+          side: "Side effect",
+          advantage: "Advantage",
+          combo: "Combination with other cards",
+        },
+        howtoHtml: `
+          <div class="callout"><p><strong>Game premise:</strong> The Community Manager controls customer entrances, customer resources, and customer narratives. The Builder creates leadership entrances, assembles official resources, and authors scalable leadership narratives.</p></div>
+          <h3>How to use the deck</h3>
+          <ol>
+            <li>Draw one card when facing a real workplace situation.</li>
+            <li>Read the <strong>Speaking line</strong> aloud exactly or adapt it naturally.</li>
+            <li>Complete the action before claiming the card’s advantage.</li>
+            <li>Apply the side effect honestly rather than treating it as punishment.</li>
+            <li>Combine cards across roles to shift from community dependency toward builder ownership.</li>
+          </ol>
+          <h3>Card constraints</h3>
+          <ul>
+            <li>Every <strong>Speaking line</strong> contains 30 words or fewer.</li>
+            <li>Every <strong>Side effect</strong> contains 30 words or fewer.</li>
+            <li>Every <strong>Advantage</strong> contains 20 words or fewer.</li>
+            <li>Every <strong>Combination</strong> contains 25 words or fewer.</li>
+            <li>Skill rating uses ★ to ★★★★★.</li>
+            <li>Cards 001–150: AWS Community Manager · Cards 151–300: AWS Builder · Cards 301–600: Advanced.</li>
+          </ul>
+        `,
+        detailsHtml: `
+          <h3>Facilitator Notes</h3>
+          <ul>
+            <li><strong>Community Manager win condition:</strong> Increase trust, inclusion, consistency, independence, and healthy succession.</li>
+            <li><strong>Builder win condition:</strong> Create direct leadership access, independently assemble resources, prove methods, and own measurable outcomes.</li>
+            <li><strong>Shared win condition:</strong> Begin with customer value, use evidence through disagreement, and finish by delivering responsible results.</li>
+            <li><strong>Power-transfer moment:</strong> A Builder completes one Entrance card, one Resource card, and one Narrative card in the same workplace challenge.</li>
+            <li><strong>Reflection prompt:</strong> Did the player merely receive an opportunity, or create a repeatable opportunity for others?</li>
+          </ul>
+          <h3>Cards 301–600</h3>
+          <p><strong>Working Backwards × Philippines Leadership × Leadership Principles</strong></p>
+          <p>Advanced cards for executive conflict, angry stakeholders, public blame, unsafe dissent, irreversible decisions, trust recovery, and difficult cross-functional work.</p>
+        `,
+      },
+      zh_tw: {
+        brand: "AWS Leadership Card Game",
+        eyebrow: "AWS Builder 牌組",
+        heroTitleHtml: 'Leadership Practice',
+        heroLead:
+          "社群經理掌控客戶入口、客戶資源與客戶敘事。Builder 創造領導入口、組裝正式資源，並撰寫可擴展的領導敘事。",
+        howTo: "怎麼玩",
+        details: "遊戲說明",
+        startGame: "開始遊戲",
+        showFull: "顯示完整卡牌",
+        hideFull: "精簡卡牌",
+        blog: "部落格",
+        setupKicker: "新局",
+        setupTitle: "開始遊戲",
+        labelPlayerCount: "玩家人數",
+        labelLevel: "關卡",
+        levelBasic: "基礎 · 001–300",
+        levelAdvanced: "進階 · 301–600",
+        playerName: (n) => `玩家 ${n} 名稱`,
+        playerPlaceholder: (n) => `玩家 ${n}`,
+        setupHint: "每位玩家每回合持有 3 張卡。結束回合後發給下一位；結束整輪會為所有人重新發 3 張卡。",
+        confirmStart: "開始",
+        gameKicker: "進行中",
+        round: (n) => `第 ${n} 輪`,
+        gameSub: (level, left, count) => `${count} 位玩家 · ${level} · 牌庫剩 ${left} 張`,
+        yourTurn: "目前發言",
+        endTurn: "下一位發言",
+        endRound: "結束整輪 · 新卡",
+        exitGame: "離開",
+        levelBasicShort: "基礎",
+        levelAdvancedShort: "進階",
+        needCards: "牌庫卡片不足。請開始新遊戲，或在重新洗牌後再發牌。",
+        howToHero: "打開怎麼玩",
+        detailsHero: "引導者筆記",
+        search: "搜尋",
+        searchPh: "標題、發言句、領導力原則…",
+        role: "角色",
+        range: "區間",
+        sort: "排序",
+        allRoles: "全部角色",
+        allCards: "全部卡牌",
+        rangeCM: "001–150 社群經理",
+        rangeBuilder: "151–300 Builder",
+        rangeAdv: "301–600 進階",
+        sortAsc: "編號 ↑",
+        sortDesc: "編號 ↓",
+        sortStars: "技能 ★ ↓",
+        count: (n) => `<strong>${n}</strong> 張卡牌`,
+        hint: "點擊卡牌查看完整內容",
+        openCard: "查看詳情 →",
+        howtoKicker: "牌組指南",
+        howtoTitle: "怎麼玩",
+        detailsKicker: "引導者",
+        detailsTitle: "遊戲說明",
+        labels: {
+          role: "角色",
+          principle: "領導力原則",
+          skill: "技能",
+          speaking: "發言句",
+          side: "副作用",
+          advantage: "優勢",
+          combo: "與其他卡牌組合",
+        },
+        howtoHtml: `
+          <div class="callout"><p><strong>遊戲前提：</strong>社群經理掌控客戶入口、客戶資源與客戶敘事。Builder 創造領導入口、組裝正式資源，並撰寫可擴展的領導敘事。</p></div>
+          <h3>如何使用牌組</h3>
+          <ol>
+            <li>面對真實職場情境時抽出一張卡。</li>
+            <li>把<strong>發言句</strong>原句讀出，或自然改寫。</li>
+            <li>完成行動後，才能主張卡牌優勢。</li>
+            <li>誠實套用副作用，不要當成懲罰略過。</li>
+            <li>跨角色組合卡牌，從依賴社群轉向 Builder 自主負責。</li>
+          </ol>
+          <h3>卡牌約束</h3>
+          <ul>
+            <li>發言句 ≤ 30 詞；副作用 ≤ 30 詞；優勢 ≤ 20 詞；組合 ≤ 25 詞。</li>
+            <li>技能以 ★ 到 ★★★★★ 表示。</li>
+            <li>001–150 社群經理 · 151–300 Builder · 301–600 進階。</li>
+          </ul>
+        `,
+        detailsHtml: `
+          <h3>引導者筆記</h3>
+          <ul>
+            <li><strong>社群經理勝利條件：</strong>提升信任、包容、一致性、独立性與健康交接。</li>
+            <li><strong>Builder 勝利條件：</strong>建立直接領導通道、獨立組裝資源、證明方法，並擁有可衡量成果。</li>
+            <li><strong>共同勝利條件：</strong>從客戶價值出發，在分歧中用證據推進，並交付負責任的結果。</li>
+            <li><strong>權力轉移時刻：</strong>Builder 在同一職場挑戰中完成一張入口、一張資源、一張敘事卡。</li>
+            <li><strong>反思提問：</strong>玩家只是接受機會，還是為他人創造可複製的機會？</li>
+          </ul>
+          <h3>卡牌 301–600</h3>
+          <p><strong>Working Backwards × 菲律賓領導力 × Leadership Principles</strong></p>
+          <p>進階卡牌，對應高階衝突、憤怒利害關係人、公開指責、不安全異議、不可逆決策、信任修復，以及艱難的跨職能協作。</p>
+        `,
+      },
+      zh_cn: {
+        brand: "AWS Leadership Card Game",
+        eyebrow: "AWS Builder 牌组",
+        heroTitleHtml: 'Leadership Practice',
+        heroLead:
+          "社区经理掌控客户入口、客户资源与客户叙事。Builder 创造领导入口、组装正式资源，并撰写可扩展的领导叙事。",
+        howTo: "怎么玩",
+        details: "游戏说明",
+        startGame: "开始游戏",
+        showFull: "显示完整卡牌",
+        hideFull: "精简卡牌",
+        blog: "博客",
+        setupKicker: "新局",
+        setupTitle: "开始游戏",
+        labelPlayerCount: "玩家人数",
+        labelLevel: "关卡",
+        levelBasic: "基础 · 001–300",
+        levelAdvanced: "进阶 · 301–600",
+        playerName: (n) => `玩家 ${n} 名称`,
+        playerPlaceholder: (n) => `玩家 ${n}`,
+        setupHint: "每位玩家每回合持有 3 张卡。结束回合后发给下一位；结束整轮会为所有人重新发 3 张卡。",
+        confirmStart: "开始",
+        gameKicker: "进行中",
+        round: (n) => `第 ${n} 轮`,
+        gameSub: (level, left, count) => `${count} 位玩家 · ${level} · 牌库剩 ${left} 张`,
+        yourTurn: "当前发言",
+        endTurn: "下一位发言",
+        endRound: "结束整轮 · 新卡",
+        exitGame: "离开",
+        levelBasicShort: "基础",
+        levelAdvancedShort: "进阶",
+        needCards: "牌库卡片不足。请开始新游戏，或在重新洗牌后再发牌。",
+        howToHero: "打开怎么玩",
+        detailsHero: "引导者笔记",
+        search: "搜索",
+        searchPh: "标题、发言句、领导力原则…",
+        role: "角色",
+        range: "区间",
+        sort: "排序",
+        allRoles: "全部角色",
+        allCards: "全部卡牌",
+        rangeCM: "001–150 社区经理",
+        rangeBuilder: "151–300 Builder",
+        rangeAdv: "301–600 进阶",
+        sortAsc: "编号 ↑",
+        sortDesc: "编号 ↓",
+        sortStars: "技能 ★ ↓",
+        count: (n) => `<strong>${n}</strong> 张卡牌`,
+        hint: "点击卡牌查看完整内容",
+        openCard: "查看详情 →",
+        howtoKicker: "牌组指南",
+        howtoTitle: "怎么玩",
+        detailsKicker: "引导者",
+        detailsTitle: "游戏说明",
+        labels: {
+          role: "角色",
+          principle: "领导力原则",
+          skill: "技能",
+          speaking: "发言句",
+          side: "副作用",
+          advantage: "优势",
+          combo: "与其他卡牌组合",
+        },
+        howtoHtml: `
+          <div class="callout"><p><strong>游戏前提：</strong>社区经理掌控客户入口、客户资源与客户叙事。Builder 创造领导入口、组装正式资源，并撰写可扩展的领导叙事。</p></div>
+          <h3>如何使用牌组</h3>
+          <ol>
+            <li>面对真实职场情境时抽出一张卡。</li>
+            <li>把<strong>发言句</strong>原句读出，或自然改写。</li>
+            <li>完成行动后，才能主张卡牌优势。</li>
+            <li>诚实套用副作用，不要当成惩罚略过。</li>
+            <li>跨角色组合卡牌，从依赖社区转向 Builder 自主负责。</li>
+          </ol>
+          <h3>卡牌约束</h3>
+          <ul>
+            <li>发言句 ≤ 30 词；副作用 ≤ 30 词；优势 ≤ 20 词；组合 ≤ 25 词。</li>
+            <li>技能以 ★ 到 ★★★★★ 表示。</li>
+            <li>001–150 社区经理 · 151–300 Builder · 301–600 进阶。</li>
+          </ul>
+        `,
+        detailsHtml: `
+          <h3>引导者笔记</h3>
+          <ul>
+            <li><strong>社区经理胜利条件：</strong>提升信任、包容、一致性、独立性与健康交接。</li>
+            <li><strong>Builder 胜利条件：</strong>建立直接领导通道、独立组装资源、证明方法，并拥有可衡量成果。</li>
+            <li><strong>共同胜利条件：</strong>从客户价值出发，在分歧中用证据推进，并交付负责任的结果。</li>
+            <li><strong>权力转移时刻：</strong>Builder 在同一职场挑战中完成一张入口、一张资源、一张叙事卡。</li>
+            <li><strong>反思提问：</strong>玩家只是接受机会，还是为他人创造可复制的机会？</li>
+          </ul>
+          <h3>卡牌 301–600</h3>
+          <p><strong>Working Backwards × 菲律宾领导力 × Leadership Principles</strong></p>
+          <p>进阶卡牌，对应高管冲突、愤怒利益相关方、公开指责、不安全异议、不可逆决策、信任修复，以及艰难的跨职能协作。</p>
+        `,
+      },
+    };
+
+    const state = {
+      lang: "en",
+      cards: [],
+      cache: {},
+      setupLevel: "basic",
+      game: null,
+      showFullCards: false,
+    };
+
+    const els = {
+      brand: document.getElementById("brand"),
+      eyebrow: document.getElementById("eyebrow"),
+      heroTitle: document.getElementById("heroTitle"),
+      heroLead: document.getElementById("heroLead"),
+      btnHowTo: document.getElementById("btnHowTo"),
+      btnDetails: document.getElementById("btnDetails"),
+      btnStartGame: document.getElementById("btnStartGame"),
+      btnShowFull: document.getElementById("btnShowFull"),
+      btnBlog: document.getElementById("btnBlog"),
+      labelSearch: document.getElementById("labelSearch"),
+      labelRole: document.getElementById("labelRole"),
+      labelRange: document.getElementById("labelRange"),
+      labelSort: document.getElementById("labelSort"),
+      search: document.getElementById("search"),
+      role: document.getElementById("role"),
+      range: document.getElementById("range"),
+      sort: document.getElementById("sort"),
+      countLabel: document.getElementById("countLabel"),
+      hintLabel: document.getElementById("hintLabel"),
+      grid: document.getElementById("grid"),
+      status: document.getElementById("status"),
+      howtoBody: document.getElementById("howtoBody"),
+      detailsBody: document.getElementById("detailsBody"),
+      howtoKicker: document.getElementById("howtoKicker"),
+      howtoTitle: document.getElementById("howtoTitle"),
+      detailsKicker: document.getElementById("detailsKicker"),
+      detailsTitle: document.getElementById("detailsTitle"),
+      cardKicker: document.getElementById("cardKicker"),
+      cardTitle: document.getElementById("cardTitle"),
+      cardBody: document.getElementById("cardBody"),
+      modalHowto: document.getElementById("modalHowto"),
+      modalDetails: document.getElementById("modalDetails"),
+      modalCard: document.getElementById("modalCard"),
+      modalSetup: document.getElementById("modalSetup"),
+      setupKicker: document.getElementById("setupKicker"),
+      setupTitle: document.getElementById("setupTitle"),
+      labelPlayerCount: document.getElementById("labelPlayerCount"),
+      labelLevel: document.getElementById("labelLevel"),
+      levelBasic: document.getElementById("levelBasic"),
+      levelAdvanced: document.getElementById("levelAdvanced"),
+      playerCount: document.getElementById("playerCount"),
+      setupNames: document.getElementById("setupNames"),
+      setupHint: document.getElementById("setupHint"),
+      btnConfirmStart: document.getElementById("btnConfirmStart"),
+      gameBoard: document.getElementById("gameBoard"),
+      gameKicker: document.getElementById("gameKicker"),
+      gameHeading: document.getElementById("gameHeading"),
+      gameSub: document.getElementById("gameSub"),
+      btnEndTurn: document.getElementById("btnEndTurn"),
+      btnEndRound: document.getElementById("btnEndRound"),
+      btnExitGame: document.getElementById("btnExitGame"),
+      playerTabs: document.getElementById("playerTabs"),
+      gameHand: document.getElementById("gameHand"),
+      browseMain: document.getElementById("browseMain"),
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function starCount(stars) {
+      return (String(stars || "").match(/★/g) || []).length;
+    }
+
+    function roleClass(role) {
+      const r = String(role || "").toLowerCase();
+      if (r.includes("builder") || r.includes("构建") || r.includes("建構")) return "builder";
+      if (r.includes("advanced") || r.includes("进阶") || r.includes("進階") || r.includes("facilitator") || r.includes("引导") || r.includes("引導")) return "advanced";
+      return "";
+    }
+
+    function applyUI() {
+      const ui = UI[state.lang];
+      els.brand.textContent = ui.brand;
+      els.eyebrow.textContent = ui.eyebrow;
+      els.heroTitle.innerHTML = ui.heroTitleHtml;
+      els.heroLead.textContent = ui.heroLead;
+      els.btnHowTo.textContent = ui.howTo;
+      els.btnDetails.textContent = ui.details;
+      els.btnStartGame.textContent = ui.startGame;
+      els.btnShowFull.textContent = state.showFullCards ? ui.hideFull : ui.showFull;
+      els.btnShowFull.setAttribute("aria-pressed", state.showFullCards ? "true" : "false");
+      if (els.btnBlog) els.btnBlog.textContent = ui.blog;
+      document.body.classList.toggle("show-full-cards", state.showFullCards);
+      els.labelSearch.textContent = ui.search;
+      els.labelRole.textContent = ui.role;
+      els.labelRange.textContent = ui.range;
+      els.labelSort.textContent = ui.sort;
+      els.search.placeholder = ui.searchPh;
+      els.hintLabel.textContent = ui.hint;
+      els.howtoKicker.textContent = ui.howtoKicker;
+      els.howtoTitle.textContent = ui.howtoTitle;
+      els.detailsKicker.textContent = ui.detailsKicker;
+      els.detailsTitle.textContent = ui.detailsTitle;
+      els.howtoBody.innerHTML = ui.howtoHtml;
+      els.detailsBody.innerHTML = ui.detailsHtml;
+      els.setupKicker.textContent = ui.setupKicker;
+      els.setupTitle.textContent = ui.setupTitle;
+      els.labelPlayerCount.textContent = ui.labelPlayerCount;
+      els.labelLevel.textContent = ui.labelLevel;
+      els.levelBasic.textContent = ui.levelBasic;
+      els.levelAdvanced.textContent = ui.levelAdvanced;
+      els.setupHint.textContent = ui.setupHint;
+      els.btnConfirmStart.textContent = ui.confirmStart;
+      els.gameKicker.textContent = ui.gameKicker;
+      els.btnEndTurn.textContent = ui.endTurn;
+      els.btnEndRound.textContent = ui.endRound;
+      els.btnExitGame.textContent = ui.exitGame;
+      renderSetupNames();
+      if (state.game) renderGame();
+
+      const roleVal = els.role.value;
+      const rangeVal = els.range.value;
+      const sortVal = els.sort.value;
+
+      els.range.innerHTML = `
+        <option value="all">${escapeHtml(ui.allCards)}</option>
+        <option value="1-150">${escapeHtml(ui.rangeCM)}</option>
+        <option value="151-300">${escapeHtml(ui.rangeBuilder)}</option>
+        <option value="301-600">${escapeHtml(ui.rangeAdv)}</option>
+      `;
+      els.sort.innerHTML = `
+        <option value="id-asc">${escapeHtml(ui.sortAsc)}</option>
+        <option value="id-desc">${escapeHtml(ui.sortDesc)}</option>
+        <option value="stars-desc">${escapeHtml(ui.sortStars)}</option>
+      `;
+      els.range.value = rangeVal;
+      els.sort.value = sortVal;
+
+      const roles = [...new Set(state.cards.map((c) => c.role).filter(Boolean))];
+      els.role.innerHTML = `<option value="all">${escapeHtml(ui.allRoles)}</option>` +
+        roles.map((r) => `<option value="${escapeHtml(r)}">${escapeHtml(r)}</option>`).join("");
+      if ([...els.role.options].some((o) => o.value === roleVal)) els.role.value = roleVal;
+
+      document.querySelectorAll(".lang-switch button").forEach((btn) => {
+        btn.setAttribute("aria-pressed", btn.dataset.lang === state.lang ? "true" : "false");
+      });
+      document.querySelectorAll(".level-btn").forEach((btn) => {
+        btn.setAttribute("aria-pressed", btn.dataset.level === state.setupLevel ? "true" : "false");
+      });
+    }
+
+    function filteredCards() {
+      const q = els.search.value.trim().toLowerCase();
+      const role = els.role.value;
+      const range = els.range.value;
+      const sort = els.sort.value;
+
+      let list = state.cards.slice();
+      if (role !== "all") list = list.filter((c) => c.role === role);
+      if (range !== "all") {
+        const [a, b] = range.split("-").map(Number);
+        list = list.filter((c) => c.id >= a && c.id <= b);
+      }
+      if (q) {
+        list = list.filter((c) => {
+          const blob = [c.number, c.title, c.role, c.leadership_principle, c.speaking_line, c.advantage, c.side_effect, c.combination_with_other_cards]
+            .join(" ")
+            .toLowerCase();
+          return blob.includes(q);
+        });
+      }
+      if (sort === "id-desc") list.sort((a, b) => b.id - a.id);
+      else if (sort === "stars-desc") list.sort((a, b) => starCount(b.skill_stars) - starCount(a.skill_stars) || a.id - b.id);
+      else list.sort((a, b) => a.id - b.id);
+      return list;
+    }
+
+    function renderGrid() {
+      const ui = UI[state.lang];
+      const list = filteredCards();
+      els.countLabel.innerHTML = ui.count(list.length);
+      if (!list.length) {
+        els.grid.innerHTML = `<div class="empty">${escapeHtml(ui.hint)}</div>`;
+        return;
+      }
+      els.grid.innerHTML = list.map((card) => {
+        const rc = roleClass(card.role);
+        return `
+          <button class="card" type="button" data-id="${card.id}">
+            <div class="card-body">
+              <div class="card-top">
+                <span class="card-no">#${escapeHtml(card.number)}</span>
+                <span class="card-stars">${escapeHtml(card.skill_stars || "")}</span>
+              </div>
+              <span class="card-role ${rc}">${escapeHtml(card.role || "")}</span>
+              <h3>${escapeHtml(card.title || "")}</h3>
+              <p class="card-line">${escapeHtml(card.speaking_line || "")}</p>
+              <dl class="card-full-block">
+                <dt>${escapeHtml(ui.labels.principle)}</dt>
+                <dd>${escapeHtml(card.leadership_principle || "")}</dd>
+                <dt>${escapeHtml(ui.labels.speaking)}</dt>
+                <dd>${escapeHtml(card.speaking_line || "")}</dd>
+                <dt>${escapeHtml(ui.labels.side)}</dt>
+                <dd>${escapeHtml(card.side_effect || "")}</dd>
+                <dt>${escapeHtml(ui.labels.advantage)}</dt>
+                <dd>${escapeHtml(card.advantage || "")}</dd>
+                <dt>${escapeHtml(ui.labels.combo)}</dt>
+                <dd>${escapeHtml(card.combination_with_other_cards || "")}</dd>
+              </dl>
+              <div class="card-foot">${escapeHtml(ui.openCard)}</div>
+            </div>
+          </button>
+        `;
+      }).join("");
+    }
+
+    function openModal(modal) {
+      modal.hidden = false;
+      modal.classList.add("open");
+      document.body.style.overflow = "hidden";
+    }
+    function closeModal(modal) {
+      modal.classList.remove("open");
+      modal.hidden = true;
+      if (![els.modalHowto, els.modalDetails, els.modalCard, els.modalSetup].some((m) => m.classList.contains("open"))) {
+        document.body.style.overflow = "";
+      }
+    }
+    function closeAllModals() {
+      [els.modalHowto, els.modalDetails, els.modalCard, els.modalSetup].forEach(closeModal);
+    }
+
+    function showCard(id) {
+      const ui = UI[state.lang];
+      const card = state.cards.find((c) => c.id === Number(id));
+      if (!card) return;
+      els.cardKicker.textContent = `#${card.number}`;
+      els.cardTitle.textContent = card.title || "";
+      els.cardBody.innerHTML = `
+        <div class="badge-row">
+          <span class="badge">${escapeHtml(card.role || "")}</span>
+          <span class="badge">${escapeHtml(card.skill_stars || "")}</span>
+        </div>
+        <dl class="detail-grid">
+          <div class="detail-item"><dt>${escapeHtml(ui.labels.principle)}</dt><dd>${escapeHtml(card.leadership_principle || "")}</dd></div>
+          <div class="detail-item"><dt>${escapeHtml(ui.labels.speaking)}</dt><dd>${escapeHtml(card.speaking_line || "")}</dd></div>
+          <div class="detail-item"><dt>${escapeHtml(ui.labels.side)}</dt><dd>${escapeHtml(card.side_effect || "")}</dd></div>
+          <div class="detail-item"><dt>${escapeHtml(ui.labels.advantage)}</dt><dd>${escapeHtml(card.advantage || "")}</dd></div>
+          <div class="detail-item"><dt>${escapeHtml(ui.labels.combo)}</dt><dd>${escapeHtml(card.combination_with_other_cards || "")}</dd></div>
+        </dl>
+      `;
+      openModal(els.modalCard);
+    }
+
+    function shuffle(list) {
+      const arr = list.slice();
+      for (let i = arr.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    function deckForLevel(level) {
+      if (level === "advanced") return state.cards.filter((c) => c.id >= 301 && c.id <= 600);
+      return state.cards.filter((c) => c.id >= 1 && c.id <= 300);
+    }
+
+    function refillDrawPile(game) {
+      if (game.drawPile.length) return;
+      game.drawPile = shuffle(game.discardPile);
+      game.discardPile = [];
+    }
+
+    function drawCards(game, count) {
+      const drawn = [];
+      for (let i = 0; i < count; i += 1) {
+        refillDrawPile(game);
+        if (!game.drawPile.length) break;
+        drawn.push(game.drawPile.pop());
+      }
+      return drawn;
+    }
+
+    function dealHands(game) {
+      game.players.forEach((player) => {
+        if (player.hand.length) {
+          game.discardPile.push(...player.hand);
+          player.hand = [];
+        }
+      });
+      const needed = game.players.length * 3;
+      refillDrawPile(game);
+      if (game.drawPile.length + game.discardPile.length < needed) {
+        return false;
+      }
+      game.players.forEach((player) => {
+        player.hand = drawCards(game, 3);
+      });
+      return game.players.every((p) => p.hand.length === 3);
+    }
+
+    function renderSetupNames() {
+      const ui = UI[state.lang];
+      const count = Number(els.playerCount.value) || 4;
+      const previous = [...els.setupNames.querySelectorAll("input")].map((input) => input.value);
+      els.setupNames.innerHTML = Array.from({ length: count }, (_, index) => {
+        const n = index + 1;
+        const value = previous[index] || "";
+        return `
+          <div class="field">
+            <label for="playerName${n}">${escapeHtml(ui.playerName(n))}</label>
+            <input id="playerName${n}" type="text" maxlength="40" value="${escapeHtml(value)}" placeholder="${escapeHtml(ui.playerPlaceholder(n))}" />
+          </div>
+        `;
+      }).join("");
+    }
+
+    function cardButtonHtml(card, ui) {
+      const rc = roleClass(card.role);
+      return `
+        <button class="card" type="button" data-id="${card.id}">
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-no">#${escapeHtml(card.number)}</span>
+              <span class="card-stars">${escapeHtml(card.skill_stars || "")}</span>
+            </div>
+            <span class="card-role ${rc}">${escapeHtml(card.role || "")}</span>
+            <h3>${escapeHtml(card.title || "")}</h3>
+            <p class="card-line">${escapeHtml(card.speaking_line || "")}</p>
+            <dl class="card-full-block">
+              <dt>${escapeHtml(ui.labels.principle)}</dt>
+              <dd>${escapeHtml(card.leadership_principle || "")}</dd>
+              <dt>${escapeHtml(ui.labels.speaking)}</dt>
+              <dd>${escapeHtml(card.speaking_line || "")}</dd>
+              <dt>${escapeHtml(ui.labels.side)}</dt>
+              <dd>${escapeHtml(card.side_effect || "")}</dd>
+              <dt>${escapeHtml(ui.labels.advantage)}</dt>
+              <dd>${escapeHtml(card.advantage || "")}</dd>
+              <dt>${escapeHtml(ui.labels.combo)}</dt>
+              <dd>${escapeHtml(card.combination_with_other_cards || "")}</dd>
+            </dl>
+            <div class="card-foot">${escapeHtml(ui.openCard)}</div>
+          </div>
+        </button>
+      `;
+    }
+
+    function renderGame() {
+      const game = state.game;
+      if (!game) return;
+      const ui = UI[state.lang];
+      const levelLabel = game.level === "advanced" ? ui.levelAdvancedShort : ui.levelBasicShort;
+      els.gameHeading.textContent = ui.round(game.round);
+      els.gameSub.textContent = ui.gameSub(levelLabel, game.drawPile.length, game.players.length);
+      els.playerTabs.innerHTML = "";
+      els.gameHand.innerHTML = game.players.map((player, index) => `
+        <section class="game-player${index === game.currentIndex ? " is-active" : ""}" data-player-index="${index}">
+          <div class="game-player-head">
+            <h3 class="game-player-name">${escapeHtml(player.name)}</h3>
+            ${index === game.currentIndex ? `<span class="game-player-tag">${escapeHtml(ui.yourTurn)}</span>` : ""}
+          </div>
+          <div class="game-hand">
+            ${player.hand.map((card) => cardButtonHtml(card, ui)).join("")}
+          </div>
+        </section>
+      `).join("");
+    }
+
+    function startGameFromSetup() {
+      const ui = UI[state.lang];
+      const count = Number(els.playerCount.value) || 4;
+      const names = Array.from({ length: count }, (_, index) => {
+        const input = document.getElementById(`playerName${index + 1}`);
+        const raw = (input?.value || "").trim();
+        return raw || ui.playerPlaceholder(index + 1);
+      });
+      const pool = deckForLevel(state.setupLevel);
+      if (pool.length < count * 3) {
+        window.alert(ui.needCards);
+        return;
+      }
+      const game = {
+        level: state.setupLevel,
+        round: 1,
+        currentIndex: 0,
+        players: names.map((name) => ({ name, hand: [] })),
+        drawPile: shuffle(pool),
+        discardPile: [],
+      };
+      if (!dealHands(game)) {
+        window.alert(ui.needCards);
+        return;
+      }
+      state.game = game;
+      els.gameBoard.hidden = false;
+      closeModal(els.modalSetup);
+      renderGame();
+      els.gameBoard.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function endTurn() {
+      const game = state.game;
+      if (!game) return;
+      game.currentIndex = (game.currentIndex + 1) % game.players.length;
+      renderGame();
+    }
+
+    function endRound() {
+      const game = state.game;
+      if (!game) return;
+      const ui = UI[state.lang];
+      if (!dealHands(game)) {
+        window.alert(ui.needCards);
+        return;
+      }
+      game.round += 1;
+      game.currentIndex = 0;
+      renderGame();
+    }
+
+    function exitGame() {
+      state.game = null;
+      els.gameBoard.hidden = true;
+      els.gameHand.innerHTML = "";
+      els.playerTabs.innerHTML = "";
+    }
+
+    async function loadLang(lang) {
+      els.status.hidden = false;
+      els.status.className = "status";
+      els.status.textContent = "Loading cards…";
+      try {
+        if (!state.cache[lang]) {
+          const res = await fetch(SOURCES[lang]);
+          if (!res.ok) throw new Error(`Failed to load ${SOURCES[lang]} (${res.status})`);
+          const data = await res.json();
+          state.cache[lang] = Array.isArray(data.cards) ? data.cards : [];
+        }
+        state.lang = lang;
+        state.cards = state.cache[lang];
+        if (state.game) {
+          const byId = new Map(state.cards.map((c) => [c.id, c]));
+          state.game.players.forEach((player) => {
+            player.hand = player.hand.map((card) => byId.get(card.id) || card);
+          });
+          state.game.drawPile = state.game.drawPile.map((card) => byId.get(card.id) || card);
+          state.game.discardPile = state.game.discardPile.map((card) => byId.get(card.id) || card);
+        }
+        applyUI();
+        renderGrid();
+        els.status.hidden = true;
+      } catch (err) {
+        els.status.hidden = false;
+        els.status.className = "status error";
+        els.status.textContent = `${err.message}. Serve this folder over HTTP (e.g. python -m http.server) so JSON can load.`;
+      }
+    }
+
+    document.querySelectorAll(".lang-switch button").forEach((btn) => {
+      btn.addEventListener("click", () => loadLang(btn.dataset.lang));
+    });
+    ["search", "role", "range", "sort"].forEach((id) => {
+      els[id].addEventListener("input", renderGrid);
+      els[id].addEventListener("change", renderGrid);
+    });
+    els.grid.addEventListener("click", (e) => {
+      const card = e.target.closest("[data-id]");
+      if (card) showCard(card.dataset.id);
+    });
+    els.gameHand.addEventListener("click", (e) => {
+      const card = e.target.closest("[data-id]");
+      if (card) showCard(card.dataset.id);
+    });
+    els.btnStartGame.addEventListener("click", () => {
+      renderSetupNames();
+      openModal(els.modalSetup);
+    });
+    els.btnShowFull.addEventListener("click", () => {
+      state.showFullCards = !state.showFullCards;
+      const ui = UI[state.lang];
+      document.body.classList.toggle("show-full-cards", state.showFullCards);
+      els.btnShowFull.setAttribute("aria-pressed", state.showFullCards ? "true" : "false");
+      els.btnShowFull.textContent = state.showFullCards ? ui.hideFull : ui.showFull;
+      if (state.showFullCards) {
+        els.browseMain?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+    els.playerCount.addEventListener("change", renderSetupNames);
+    document.querySelectorAll(".level-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        state.setupLevel = btn.dataset.level;
+        document.querySelectorAll(".level-btn").forEach((b) => {
+          b.setAttribute("aria-pressed", b.dataset.level === state.setupLevel ? "true" : "false");
+        });
+      });
+    });
+    els.btnConfirmStart.addEventListener("click", startGameFromSetup);
+    els.btnEndTurn.addEventListener("click", endTurn);
+    els.btnEndRound.addEventListener("click", endRound);
+    els.btnExitGame.addEventListener("click", exitGame);
+    document.querySelectorAll("[data-open]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const which = btn.getAttribute("data-open");
+        if (which === "howto") openModal(els.modalHowto);
+        if (which === "details") openModal(els.modalDetails);
+      });
+    });
+    document.querySelectorAll(".modal").forEach((modal) => {
+      modal.addEventListener("click", (e) => {
+        if (e.target.hasAttribute("data-close") || e.target.classList.contains("modal-backdrop")) {
+          closeModal(modal);
+        }
+      });
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeAllModals();
+    });
+
+    renderSetupNames();
+    loadLang("en");
+  </script>
+</body>
+</html>
